@@ -1,0 +1,60 @@
+ --------------------------------------------------------
+!                                                        !
+!      L        OOO    PPPP    N   N    OOO    RRRR      !
+!      L       O   O   P   P   N  NN   O   O   R   R     !
+!      L       O   O   PPPP    N N N   O   O   RRRR      !
+!      L       O   O   P       NN  N   O   O   R   R     !
+!      LLLLL    OOO    P       N   N    OOO    R   R     !
+!                                                        !
+ -------------------------------------------------------- 
+! SOLVER:   Frequency Domain Acoustic Solver:            !
+!   i)  TONAL -> Hanson 1990 model                       !
+!   ii) Broadband -> BPM and WPS based TBL TE noise      !
+ -------------------------------------------------------- 
+! Written by: Furkat Yunus                               !
+! Contact:    f.yunus@tudelft.nl                         !
+ -------------------------------------------------------- 
+Running case for: JobySinglePropNB2RPM1800
+
+
+====================================================
+
+
+
+
+BPM TBL-TE broadband noise written to TEnoise_BPM_rotor.txt
+
+Noise computation completed for rotor 0
+
+Calculating tonal noise ...
+Calculating TBL TE (BB) noise ...
+
+
+
+
+BPM TBL-TE broadband noise written to TEnoise_BPM_rotor.txt
+p_real_All 0.115129
+p_imag_All 0.0937389
+p_real_All 0.0202689
+p_imag_All 0.0242469
+p_real_All 0.00148439
+p_imag_All 0.00417599
+p_real_All -2.27056e-05
+p_imag_All 0.000517761
+p_real_All -2.32884e-05
+p_imag_All 4.96614e-05
+p_real_All -4.04988e-06
+p_imag_All 3.65117e-06
+p_real_All -4.90963e-07
+p_imag_All 1.69682e-07
+p_real_All -4.78919e-08
+p_imag_All -3.35028e-09
+
+
+ -----------------------------------------------
+ Computation completed sucessfully! 
+ CPU time 16.040000 seconds
+ -----------------------------------------------
+
+
+ ============================================ 
