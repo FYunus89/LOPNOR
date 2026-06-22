@@ -4,7 +4,7 @@ This repo contains LOPNOR tookit including solvers in aerodynamic, aeroacoustics
 
 
 ## 1. LOPNOR_BEMTcpu
-LOPNOR_BEMTcpu solver is the solver developed during pas years and its detailed information can be accessed from the following references:
+LOPNOR_BEMTcpu solver is an aerodyanmic solver developed during pas years and its detailed information can be accessed from the following references:
 
 ```bibtex
 @inproceedings{yunus2024predicting,
