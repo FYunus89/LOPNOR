@@ -53,7 +53,7 @@ This solver takes the aerodynamic input from the LOPNOR_BEMTcpu solver and calcu
 }
 ```
 
- Recently, two broadband noise models (BPM and wall pressure spectrum + turbulent boundary layer trailing edge noise with leading edge back-scattering is implemented. 5 different WPS models are included in the current version.) Tonal noise implementation was validated against expreeimental measurement data and documented in above mentioned reference. Validation cases included showed reliable accuracy against  against wind tunnel measurements. 
+ Recently, two broadband noise models (BPM and wall pressure spectrum + turbulent boundary layer trailing edge noise with leading edge back-scattering) are implemented. Five different WPS models are included in the current version.) Tonal noise implementation was validated against expreeimental measurement data and documented in above mentioned reference. Validation cases included showed reliable accuracy against  against wind tunnel measurements. 
 
  ## 3. LOPNOR_Signal
 
@@ -96,5 +96,5 @@ This solver will be added to the repository soon.
 This the time domain version of the LOPNOR_FWH-FD solver and will be added into the github repo soon.
 
 
- ### LOPNOR toolkit is actively under development and solvers will be periodically updated. Stay tuned.
+ #### LOPNOR toolkit is actively under development and solvers will be periodically updated. Stay tuned.
 
