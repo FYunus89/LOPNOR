@@ -67,7 +67,34 @@ This solver takes the aerodynamic input from the LOPNOR_BEMTcpu solver and calcu
   -- -w windowing function option: hann, hamm, balckman, welch and rect
 
 
+## 4. LOPNOR_FWH-FD
+This is an aeroacoustic solver which reads input data (flow fluctuation on a data-surface (solid or permeable) ) and calculates noise. This solver has been coupled with the LOPNOR_BEMTcpu to calculate propeller/rotor noise in non-axial inflow cases. More details of this solver can be found from the following references:
+```bibtex
+@inproceedings{yunus2024efficient,
+  title={Efficient prediction of propeller noise at incidence},
+  author={Yunus, Furkat and Casalino, Damiano and Romani, Gianluca and Snellen, Mirjam},
+  year={2024},
+  publisher={University of Salford}
+}
+```
+and 
+
+```bibtex
+@article{yunus2025efficient,
+  title={Efficient prediction of propeller noise in non-axial uniform inflow conditions},
+  author={Yunus, Furkat and Casalino, Damiano and Romani, Gianluca and Snellen, Mirjam},
+  journal={Aerospace Science and Technology},
+  volume={157},
+  pages={109860},
+  year={2025},
+  publisher={Elsevier}
+}
+```
+This solver will be added to the repository soon.
+
+## 5. LOPNOR_FWH-TD
+This the time domain version of the LOPNOR_FWH-FD solver and will be added into the github repo soon.
 
 
- LOPNOR toolit is actively under development and solvers will be periodically updated. Stay tuned.
+ ### LOPNOR toolit is actively under development and solvers will be periodically updated. Stay tuned.
 
