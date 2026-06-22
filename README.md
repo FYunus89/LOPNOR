@@ -1,3 +1,73 @@
-This repo contains LOPNOR aerodynamic and aeroacoustics toolchain. 
-Currently, CPU version of BEMT/Unsteady BEMT procedure is shared in LOPNOR_BEMTcpu folder.
-LOPNOR_Hanson_FD1990 will be shared soon, and also FD FW-H formulation will be shared soon.
+# LOPNOR toolkit
+
+This repo contains LOPNOR tookit including solvers in aerodynamic, aeroacoustics and signal processing tools.
+
+
+## 1. LOPNOR_BEMTcpu
+LOPNOR_BEMTcpu solver is the solver developed during pas years and its detailed information can be accessed from the following references:
+
+```bibtex
+@inproceedings{yunus2024predicting,
+  title={Predicting tonal noise of full-electric propeller-driven aircraft in outdoor environments using low-order models},
+  author={Yunus, Furkat and von den Hoff, Bieke and Snellen, Mirjam},
+  booktitle={30th aiaa/ceas aeroacoustics conference (2024)},
+  pages={3418},
+  year={2024}
+}
+```
+,
+```bibtex
+@inproceedings{yunus2024efficient,
+  title={Efficient prediction of propeller noise at incidence},
+  author={Yunus, Furkat and Casalino, Damiano and Romani, Gianluca and Snellen, Mirjam},
+  year={2024},
+  publisher={University of Salford}
+}
+```
+and 
+
+```bibtex
+@article{yunus2025efficient,
+  title={Efficient prediction of propeller noise in non-axial uniform inflow conditions},
+  author={Yunus, Furkat and Casalino, Damiano and Romani, Gianluca and Snellen, Mirjam},
+  journal={Aerospace Science and Technology},
+  volume={157},
+  pages={109860},
+  year={2025},
+  publisher={Elsevier}
+}
+```
+. Its accuracy has been verified and validated against high-fidelity CFD simulations and experimental measurements.
+
+## 2. LOPNOR_Hanson1990
+
+This solver takes the aerodynamic input from the LOPNOR_BEMTcpu solver and calcualtes tonal noise (thickness and loading) based on the Hanson 1990 model (including noise directivity and radiation efficiency changes due to non-axial inflow/angular inflow conditions). The details of the solver can be obtained from the reference below.
+
+```bibtex
+@inproceedings{yunus2024predicting,
+  title={Predicting tonal noise of full-electric propeller-driven aircraft in outdoor environments using low-order models},
+  author={Yunus, Furkat and von den Hoff, Bieke and Snellen, Mirjam},
+  booktitle={30th aiaa/ceas aeroacoustics conference (2024)},
+  pages={3418},
+  year={2024}
+}
+```
+
+ Recently, two broadband noise models (BPM and wall pressure spectrum + turbulent boundary layer trailing edge noise with leading edge back-scattering is implemented. 5 different WPS models are included in the current version.) Tonal noise implementation was validated against expreeimental measurement data and documented in above mentioned reference. Validation cases included showed reliable accuracy against  against wind tunnel measurements. 
+
+ ## 3. LOPNOR_Signal
+
+ This is a signal processing solver which reads a time-pressure history and calcualtes corresponding power-spectrum density and SPL with different window-ing functions and varying frequency resolutions. To use, you have to run the following command: 
+ ```text
+ LOPNOR_Signal -i inputfile.txt -n FrequncyNumber -spl -w hann
+```
+  -- inputfile.txt this is the time-pressure hisotry file.
+  -- FrequencyNumber which is the frequency number and determine the resolution of the outptu
+  -- -spl is the output flag (here it is spl) and if you want psd then it should be -psd
+  -- -w windowing function option: hann, hamm, balckman, welch and rect
+
+
+
+
+ LOPNOR toolit is actively under development and solvers will be periodically updated. Stay tuned.
+
