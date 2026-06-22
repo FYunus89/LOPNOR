@@ -96,5 +96,5 @@ This solver will be added to the repository soon.
 This the time domain version of the LOPNOR_FWH-FD solver and will be added into the github repo soon.
 
 
- ### LOPNOR toolit is actively under development and solvers will be periodically updated. Stay tuned.
+ ### LOPNOR toolkit is actively under development and solvers will be periodically updated. Stay tuned.
 
