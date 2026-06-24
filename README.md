@@ -1,10 +1,10 @@
 # LOPNOR toolkit
 
-This repo contains LOPNOR tookit including solvers in aerodynamic, aeroacoustics and signal processing tools.
+This repo contains LOPNOR toolkit including solvers in aerodynamic, aeroacoustics and signal processing.
 
 
 ## 1. LOPNOR_BEMTcpu
-LOPNOR_BEMTcpu solver is an aerodyanmic solver developed during pas years and its detailed information can be accessed from the following references:
+LOPNOR_BEMTcpu solver is an aerodyanmic solver developed during past years. The solver implements standard blade element momentum theory (BEMT) procedure with Prandtl's root and tip los functions. Addionally, the solver accounts for aerodynamic unsteadiness due to non-axial inflow conditions by employing Sears 2D unsteady airfoil formulations. Hence, the solver can be used to study aerodynamic loadings under non-axial inflow conditions. The solver outputs Cp distribution at each blade element, loading information (axial and tangential induction, sectional thrust and torque, circulation, Cl, Cd, CT and CQ, Cp at each blade station and at each azimuthal position) as well as final integrated values of loadings. Additionally, blade element boundary layer parameters are also extracted (can be found in Profiles folder) to be used to calculate Turbulent Boundary Layer (TBL) trailing edge noise. Its accuracy has been verified and validated against high-fidelity CFD simulations and experimental measurements.Detailed information of the solver can be accessed from the following references:
 
 ```bibtex
 @inproceedings{yunus2024predicting,
@@ -37,7 +37,7 @@ and
   publisher={Elsevier}
 }
 ```
-. Its accuracy has been verified and validated against high-fidelity CFD simulations and experimental measurements.
+
 
 ## 2. LOPNOR_Hanson1990
 
@@ -53,8 +53,8 @@ This solver takes the aerodynamic input from the LOPNOR_BEMTcpu solver and calcu
 }
 ```
 
- Recently, two broadband noise models (BPM and wall pressure spectrum + turbulent boundary layer trailing edge noise with leading edge back-scattering) are implemented. Five different WPS models are included in the current version.) Tonal noise implementation was validated against expreeimental measurement data and documented in above mentioned reference. Validation cases included showed reliable accuracy against  against wind tunnel measurements. 
-
+ Recently, two broadband noise models, BPM and wall pressure spectrum (WPS) + TBL trailing edge noise with leading edge back-scattering, are implemented. Five different WPS models are included in the current version. Tonal noise implementation was validated against expreeimental measurement data and documented in above mentioned reference. Validation of the TBL trailing edge noise needs to be completed.
+ 
  ## 3. LOPNOR_Signal
 
  This is a signal processing solver which reads a time-pressure history and calcualtes corresponding power-spectrum density and SPL with different window-ing functions and varying frequency resolutions. To use, you have to run the following command: 
