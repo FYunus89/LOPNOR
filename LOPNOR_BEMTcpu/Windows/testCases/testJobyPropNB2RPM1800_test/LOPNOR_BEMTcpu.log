@@ -737,18 +737,287 @@ Re		 AoA		 Cd
  150000.000000   90.000000   1.290000
 
 Running BEMT to calculate loadings...
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
+Blade pitch reference: twist at r/R = 0.7500 is -0.5803 deg; subtracted so the reference station reads 0 deg, then collective 0.0000 deg applied there.
 
 
 ----------------------------------------------------
-Thrust [N] = -984972677515087688161856812957462208264789611989103017984.000000,	 Torque [N.m] = 32114660606294894535892935219503943367824825836485214208.000000,
- Power [N.m/s]= 6053470909995933737714863384202736348545924702585080512512.000000
-CT = -841813036286618184269691428151199256525157805882081280.000000,	 CQ = 27041907029050572559842371626572472173557092389486592.000000,	 CP = 169909312923046945734641331712920644568757611846959104.000000,	 FM = -nan(ind)
-CL(disk yaw moment) = 143833233858885495298691760203502085384051328490962941307880563164096975863453815165071125427059428634716276785152.000000,	 CM(disk pitch moment) = -30572697642924795359514054152748602424532066098408887108852734307405760933375546094296102705533436102219652923392.000000
-TC = -nan(ind),	 QC = -nan(ind),	 PC = -nan(ind)
-Propeller efficiency = -0.000000
+Thrust [N] = 14.854437,	 Torque [N.m] = 1.343969,
+ Power [N.m/s]= 253.332097
+CT = 0.012695,	 CQ = 0.001132,	 CP = 0.007111,	 FM = 0.142250
+CL(disk yaw moment) = 0.000000,	 CM(disk pitch moment) = 0.000000
+TC = -nan(ind),	 QC = inf,	 PC = inf
+Propeller efficiency = 0.000000
 Done!
 
-Cp distribution output disabled by user input.
+Done!
+
+Writing Cp distributions...
+
+
+----------------------------------------------------
+Writing Cp distributions for blade airfoil sections.
+
+Foil name : Airfoil_rR0.250000.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.250000.txt after 8 iterations
+
+Foil name : Airfoil_rR0.285714.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.285714.txt after 12 iterations
+
+Foil name : Airfoil_rR0.321429.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.321429.txt after 12 iterations
+
+Foil name : Airfoil_rR0.357143.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.357143.txt after 6 iterations
+
+Foil name : Airfoil_rR0.392857.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.392857.txt after 6 iterations
+
+Foil name : Airfoil_rR0.428571.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.428571.txt after 6 iterations
+
+Foil name : Airfoil_rR0.464286.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.464286.txt after 5 iterations
+
+Foil name : Airfoil_rR0.500000.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.500000.txt after 5 iterations
+
+Foil name : Airfoil_rR0.535714.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.535714.txt after 5 iterations
+
+Foil name : Airfoil_rR0.571429.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.571429.txt after 5 iterations
+
+Foil name : Airfoil_rR0.607143.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.607143.txt after 6 iterations
+
+Foil name : Airfoil_rR0.642857.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.642857.txt after 7 iterations
+
+Foil name : Airfoil_rR0.678571.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.678571.txt after 8 iterations
+
+Foil name : Airfoil_rR0.714286.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.714286.txt after 5 iterations
+
+Foil name : Airfoil_rR0.750000.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.750000.txt after 7 iterations
+
+Foil name : Airfoil_rR0.785714.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.785714.txt after 6 iterations
+
+Foil name : Airfoil_rR0.821429.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.821429.txt after 10 iterations
+
+Foil name : Airfoil_rR0.857143.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.857143.txt after 6 iterations
+
+Foil name : Airfoil_rR0.892857.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.892857.txt after 7 iterations
+
+Foil name : Airfoil_rR0.928571.txt
+cnt 199
+Cp distribution converged for Airfoil_rR0.928571.txt after 14 iterations
+Cp distribution export completed.
+Done!
+
 Writing aerodynamic outputs for noise calculation...
 
 
@@ -757,170 +1026,174 @@ Blade geometry data including pitch angle from the user
  and clculated true AoA, Re and Vrel.
 
 rRt	 Twist [deg]	 AoAt [deg]	 Ret	 Vrel
-0.267857  19.826653  4.749011  131502.479503  24.398694
-0.303571  18.007939  5.742464  156149.475891  28.131335
-0.339286  16.213244  5.307652  178875.547072  31.666984
-0.375000  14.467913  4.574463  200118.021029  35.160181
-0.410714  12.771658  3.802343  219990.730880  38.638865
-0.446429  11.124510  3.029593  238537.624379  42.112277
-0.482143  9.689830  2.417468  255880.412458  45.582598
-0.517857  8.287038  1.954161  272285.868203  49.059855
-0.553571  6.746692  1.224102  287927.759842  52.519071
-0.589286  5.245171  0.526210  303185.460702  55.971022
-0.625000  3.873724  0.002905  318145.049415  59.408464
-0.660714  2.487516  -0.829611  332532.923862  62.823049
-0.696429  1.138459  -1.347793  345717.661521  66.198779
-0.732143  -0.017822  -1.890089  357362.458708  69.538939
-0.767857  -1.192611  -2.352183  366579.277950  72.708214
-0.803571  -2.510506  -2.352183  366579.277950  72.708214
-0.839286  -3.800956  -183.270310  450000.000000  10980404574.825281
-0.875000  -5.080007  -183.270310  450000.000000  10980404574.825281
-0.910714  -6.508071  -183.270310  450000.000000  10980404574.825281
-0.946429  -8.138694  -183.270310  450000.000000  10980404574.825281
+0.267857  20.406907  5.076222  131294.089392  24.360029
+0.303571  18.588193  6.113427  155988.669924  28.102365
+0.339286  16.793498  5.683947  178733.350414  31.641810
+0.375000  15.048167  4.958479  199986.227548  35.137025
+0.410714  13.351912  4.174168  219863.569497  38.616530
+0.446429  11.704764  3.389256  238413.290496  42.090327
+0.482143  10.270084  2.773445  255762.306949  45.561559
+0.517857  8.867292  2.300544  272181.829724  49.041110
+0.553571  7.326946  1.562343  287840.262099  52.503111
+0.589286  5.825425  0.852141  303117.865181  55.958543
+0.625000  4.453978  0.307422  318114.748396  59.402805
+0.660714  3.067770  -0.529992  332547.981249  62.825893
+0.696429  1.718714  -1.083582  345840.012647  66.222207
+0.732143  0.562432  -1.649000  357647.379006  69.594381
+0.767857  -0.612357  -2.155311  367444.542109  72.879833
+0.803571  -1.930252  -2.492624  369257.833863  75.420788
+0.839286  -3.220702  -3.220702  370570.637476  80.285773
+0.875000  -4.499753  -4.499753  344953.852917  83.702160
+0.910714  -5.927817  -5.927817  296856.942540  87.118547
+0.946429  -7.558440  -7.558440  222402.125001  90.534982
 
 
 ----------------------------------------------------
 
 Foil name : Airfoil_rR0.250000.txt
 cnt 199
-Re : 131502.479503
-alpha : 4.749011
+Re : 131294.089392
+alpha : 5.076222
   converged after 8 iterations
-  cl : 0.677255, cd: 0.033355
+  cl : 0.695667, cd: 0.034566
 
 Foil name : Airfoil_rR0.285714.txt
 cnt 199
-Re : 156149.475891
-alpha : 5.742464
-  converged after 9 iterations
-  cl : 0.787692, cd: 0.031119
+Re : 155988.669924
+alpha : 6.113427
+  converged after 12 iterations
+  cl : 0.809865, cd: 0.032351
 
 Foil name : Airfoil_rR0.321429.txt
 cnt 199
-Re : 178875.547072
-alpha : 5.307652
-  converged after 8 iterations
-  cl : 0.803419, cd: 0.026157
+Re : 178733.350414
+alpha : 5.683947
+  converged after 12 iterations
+  cl : 0.828846, cd: 0.027035
 
 Foil name : Airfoil_rR0.357143.txt
 cnt 199
-Re : 200118.021029
-alpha : 4.574463
+Re : 199986.227548
+alpha : 4.958479
   converged after 6 iterations
-  cl : 0.778174, cd: 0.022467
+  cl : 0.807317, cd: 0.023034
 
 Foil name : Airfoil_rR0.392857.txt
 cnt 199
-Re : 219990.730880
-alpha : 3.802343
+Re : 219863.569497
+alpha : 4.174168
   converged after 6 iterations
-  cl : 0.730145, cd: 0.020220
+  cl : 0.762913, cd: 0.020602
 
 Foil name : Airfoil_rR0.428571.txt
 cnt 199
-Re : 238537.624379
-alpha : 3.029593
+Re : 238413.290496
+alpha : 3.389256
   converged after 6 iterations
-  cl : 0.664855, cd: 0.018523
+  cl : 0.699793, cd: 0.018821
 
 Foil name : Airfoil_rR0.464286.txt
 cnt 199
-Re : 255880.412458
-alpha : 2.417468
+Re : 255762.306949
+alpha : 2.773445
   converged after 5 iterations
-  cl : 0.589583, cd: 0.017297
+  cl : 0.626840, cd: 0.017424
 
 Foil name : Airfoil_rR0.500000.txt
 cnt 199
-Re : 272285.868203
-alpha : 1.954161
+Re : 272181.829724
+alpha : 2.300544
   converged after 5 iterations
-  cl : 0.489625, cd: 0.015889
+  cl : 0.526302, cd: 0.016059
 
 Foil name : Airfoil_rR0.535714.txt
 cnt 199
-Re : 287927.759842
-alpha : 1.224102
-  converged after 8 iterations
-  cl : 0.404755, cd: 0.014985
+Re : 287840.262099
+alpha : 1.562343
+  converged after 5 iterations
+  cl : 0.440709, cd: 0.015126
 
 Foil name : Airfoil_rR0.571429.txt
 cnt 199
-Re : 303185.460702
-alpha : 0.526210
+Re : 303117.865181
+alpha : 0.852141
   converged after 5 iterations
-  cl : 0.317865, cd: 0.014372
+  cl : 0.353106, cd: 0.014471
 
 Foil name : Airfoil_rR0.607143.txt
 cnt 199
-Re : 318145.049415
-alpha : 0.002905
+Re : 318114.748396
+alpha : 0.307422
   converged after 6 iterations
-  cl : 0.228802, cd: 0.013937
+  cl : 0.262758, cd: 0.013996
 
 Foil name : Airfoil_rR0.642857.txt
 cnt 199
-Re : 332532.923862
-alpha : -0.829611
+Re : 332547.981249
+alpha : -0.529992
   converged after 7 iterations
-  cl : 0.179365, cd: 0.013606
+  cl : 0.210983, cd: 0.013612
 
 Foil name : Airfoil_rR0.678571.txt
 cnt 199
-Re : 345717.661521
-alpha : -1.347793
+Re : 345840.012647
+alpha : -1.083582
   converged after 8 iterations
-  cl : 0.107233, cd: 0.013553
+  cl : 0.136361, cd: 0.013521
 
 Foil name : Airfoil_rR0.714286.txt
 cnt 199
-Re : 357362.458708
-alpha : -1.890089
+Re : 357647.379006
+alpha : -1.649000
   converged after 5 iterations
-  cl : 0.065135, cd: 0.013350
+  cl : 0.090804, cd: 0.013326
 
 Foil name : Airfoil_rR0.750000.txt
 cnt 199
-Re : 366579.277950
-alpha : -2.352183
+Re : 367444.542109
+alpha : -2.155311
   converged after 7 iterations
-  cl : 0.026724, cd: 0.013340
+  cl : 0.047242, cd: 0.013290
 
 Foil name : Airfoil_rR0.785714.txt
 cnt 199
-Re : 366579.277950
-alpha : -2.352183
-  converged after 8 iterations
-  cl : 0.021164, cd: 0.013268
+Re : 369257.833863
+alpha : -2.492624
+  converged after 6 iterations
+  cl : 0.006754, cd: 0.013281
 
 Foil name : Airfoil_rR0.821429.txt
 cnt 199
-Re : 450000.000000
-alpha : -183.270310
- unconverged.
+Re : 370570.637476
+alpha : -3.220702
+  converged after 10 iterations
+  cl : -0.113411, cd: 0.017640
 
 Foil name : Airfoil_rR0.857143.txt
 cnt 199
-Re : 450000.000000
-alpha : -183.270310
- unconverged.
+Re : 344953.852917
+alpha : -4.499753
+  converged after 6 iterations
+  cl : -0.264963, cd: 0.014459
 
 Foil name : Airfoil_rR0.892857.txt
 cnt 199
-Re : 450000.000000
-alpha : -183.270310
- unconverged.
+Re : 296856.942540
+alpha : -5.927817
+  converged after 7 iterations
+  cl : -0.350710, cd: 0.017527
 
 Foil name : Airfoil_rR0.928571.txt
 cnt 199
-Re : 450000.000000
-alpha : -183.270310
- unconverged.
+Re : 222402.125001
+alpha : -7.558440
+  converged after 14 iterations
+  cl : -0.552240, cd: 0.021563
 
 
 ----------------------------------------------------
 Hanson-FD aerodynamic section export completed.
-Integrated check from exported sections: Thrust [N] = -535478811261350848.000000, Torque [N.m] = -107025144557661616.000000, Power [W] = -20173764473504120832.000000
+Integrated check from exported sections: Thrust [N] = 15.515028, Torque [N.m] = 1.282723, Power [W] = 241.787649
 This check is for export sanity only; use the BEMT performance summary above for case-to-reference comparison.
 
 Done!
@@ -932,7 +1205,7 @@ to get more reliable results, set rotor.Vinf to something 0.01-0.001.
 
 
  Computation completed sucessfully! 
- CPU time 102.892000 seconds
+ CPU time 2.456000 seconds
 
 
 ----------------------------------------------------

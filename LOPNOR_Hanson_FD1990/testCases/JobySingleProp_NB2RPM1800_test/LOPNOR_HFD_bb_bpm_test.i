@@ -18,7 +18,7 @@ disk_CQdr_us.txt .............................. Input file for unsteady loading 
 #================ TE BL DATA ================
 1 ........................................... if run BB noise calculation [0: false; 1: true]
 Profiles/ .................................. BL Profiles directory (relative to this input file, or absolute path)
-1000 ........................................ BB model [1000:WPS/Moreau; 2000:BPM TBL-TE]
+2000 ........................................ BB model [1000:WPS/Moreau; 2000:BPM TBL-TE]
 1000 ........................................ WPS sub-model (only when BB model=1000): [1000:Goody; 2000:Rozenberg; 3000:Kamruzzaman; 4000:Lee; 5000:Schlinker; 6000:ModifiedSchlinker]
 #================ PROPELLER OPER DATA================
 0.0 ......................................... Flight altitude (m)
@@ -37,6 +37,7 @@ mics.txt ...................................... Receiver geometry file
 #============ SIGNAL SECTION ===================
 0 ............................................ logic if doing FFT to get the pressure waveform [0: no FFT, 1: do FFT]
 0.089 ........................................ signal beginning time [s]
-0.3 .......................................... t (Total duration of propeller signal) [s]
+0.5 .......................................... t (Total duration of propeller signal) [s]
 50000.0 ...................................... fs (signal sampling frequency) [Hz]
+3.36 ......................................... signal correction factor
 #
