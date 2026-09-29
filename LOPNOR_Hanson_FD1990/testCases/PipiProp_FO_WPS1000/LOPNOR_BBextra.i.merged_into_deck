@@ -1,0 +1,27 @@
+# Optional extra broadband sources for LOPNOR, named on the deck line after the WPS sub-model.
+# Pipistrel fly-over case.  Updated 28-09-2026: every parameter the blade geometry determines is
+# taken from it; the rest is either a labelled calibration or switched off.
+#
+# --- Turbulence-ingestion (Amiet 1975 LE) noise ------------------------------------------------
+# NOT geometric.  u' and Lambda are FITTED to the averaged fly-over broadband floor
+# (100 Hz - 2 kHz, rms 2.8 dB).  No inflow data exist for this flight and only the averaged
+# spectrum is available, so this could not be tested blind: treat the TIN level as a calibration.
+tin 1
+tin_urms 2.48        # rms upwash [m/s]          (fitted)
+tin_lambda 0.1       # integral length scale [m] (fitted)
+#
+# --- BPM tip-vortex formation noise ------------------------------------------------------------
+# Tip shape FROM GEOMETRY (bladeGeom.txt): chord/R is still 0.069 at r/R = 0.975 and extrapolates
+# to about 0.058 at the tip, i.e. ~41 % of the maximum chord -> finite, cut ('flat') tip.
+# Caveat: the table ends at r/R = 0.975, so rounding in the last 2.5 % of radius would not show.
+# alpha_tip is taken automatically from BladeAeroData_HansonFD.txt.
+tip 1
+tip_shape flat
+#
+# --- BPM trailing-edge bluntness ---------------------------------------------------------------
+# Cannot be taken from the geometry: in every Profiles/Cp_Airfoil_rR*.txt contour the lower
+# surface stops 5-9 % chord before the trailing edge ('blunt_h auto' rejects all 29 stations).
+# Needs the real trailing-edge thickness or full coordinates near the TE.
+blunt 0
+blunt_h 0.0          # [m] or 'auto'
+blunt_psi 14         # [deg], used only with a fixed blunt_h
