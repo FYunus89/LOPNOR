@@ -1,0 +1,588 @@
+---------------------------------------------------------
+!                                                        !
+!      L        OOO    PPPP    N   N    OOO    RRRR      !
+!      L       O   O   P   P   N  NN   O   O   R   R     !
+!      L       O   O   PPPP    N N N   O   O   RRRR      !
+!      L       O   O   P       NN  N   O   O   R   R     !
+!      LLLLL    OOO    P       N   N    OOO    R   R     !
+!                                                        !
+ -------------------------------------------------------- 
+! SOLVER:   Frequency Domain Acoustic Solver:            !
+!   i)  TONAL -> Hanson 1990 model                       !
+!   ii) Broadband -> BPM and WPS based TBL TE noise      !
+!                                                        !
+! Last compiled on: Sep 29 2026 at 16:53:17 |OS:Windows 
+ -------------------------------------------------------- 
+! Written by: Furkat Yunus                               !
+! Contact:    f.yunus@tudelft.nl                         !
+ -------------------------------------------------------- 
+                                                          
+Running case for: JobySinglePropNB5RPM1800
+
+
+====================================================
+Number of propellers: 1
+Reading aerodynamic loadings for propeller 0 from file .\BladeAeroData_HansonFD.txt
+Unsteady loading harmonics: CT=.\disk_CTdr_us.txt  CQ=.\disk_CQdr_us.txt
+BL Profiles directory (from input file): C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/
+Input deck: tin=1 needs tin_urms>0 and tin_lambda>0; TIN switched off
+Separated suction sides: sep_bpm=2
+Rotor summation: doppler=1
+Extra BB sources (input deck): TIN=0 (u'=0 m/s, Lambda=0 m) tip=1 (rounded) blunt=1 (h, Psi from airfoil geometry)
+Receiver coordinate file: .\mics.txt
+
+
+====================================================
+
+Propeller # 0
+  Reading aerodynamic data from: .\BladeAeroData_HansonFD.txt
+  NB 5 and RPM  1800.000000
+  Omega = 188.495559
+  Mach_h = 0.278329, Mach_tip = 0.278329
+  J = 0.000000
+reference pressure 0.000020 [Pa]
+Reading blade geometry ...
+Blade data input file: .\BladeAeroData_HansonFD.txt
+Number of spanwise stations in use: 20
+vehicle.pitchAngle = 0.000000
+
+
+Mach_x = 0.000000, Mach_t = 0.278329
+NB = 5, RPM = 1800.000000, MCA=0.000000
+
+
+====================================================
+Harmonic run for a range of HNum: [1 -> 8]
+num obsderver = 1
+Maximum number of harmonics = 8
+                                             
+
+Chordwise Cp profiles loaded for all 20 stations of rotor 0 from 'C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/'
+Unsteady loading files .\disk_CTdr_us.txt and .\disk_CQdr_us.txt were read but contain no azimuthal variation
+  (max non-mean/mean = 2.334e-15 for CT, 2.326e-15 for CQ, i.e. at DFT roundoff level).
+  This is an axisymmetric (zero disk angle of attack) disk, so their content is
+  ignored and the steady tonal loading from the blade aerodynamic data file is used.
+Loading calculation, single harmonic: 1
+Loading calculation, acoustic harmonics: 9
+WPS/Moreau: using BL Profiles directory: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.267857_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.599077  0.000490  0.000220  0.000365  0.001489  51538.837160
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.267857_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.224644  0.000490  0.000220  0.001965  0.001489  -19423.016321
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.303571_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.161037  0.000475  0.000213  0.000071  0.001445  19560.315903
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.303571_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.549951  0.000475  0.000213  0.001571  0.001445  -17737.724787
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.339286_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.698706  0.000432  0.000194  0.000258  0.001312  25075.155404
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.339286_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.678093  0.000432  0.000194  0.001357  0.001312  -21333.679315
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.375000_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.222023  0.000404  0.000181  0.000069  0.001230  26088.290630
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.375000_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 4.656676  0.000404  0.000181  0.001450  0.001230  -25427.948497
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.410714_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 6.188691  0.000349  0.000156  0.001825  0.001060  356777.366134
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.410714_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.529567  0.000349  0.000156  0.000156  0.001060  -22384.614316
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.446429_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 4.861059  0.000320  0.000143  0.001309  0.000973  166496.952056
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.446429_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.039853  0.000320  0.000143  0.000818  0.000973  -42346.566717
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.482143_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 1.243004  0.000399  0.000179  0.000166  0.001216  399510.606059
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.482143_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.642407  0.000399  0.000179  0.000741  0.001216  110941.198306
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.517857_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 14.776906  0.000229  0.000103  0.004140  0.000696  3470416.889219
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.517857_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 1.264356  0.000229  0.000103  0.000354  0.000696  -61233.618549
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.553572_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.288674  0.000314  0.000141  0.000041  0.000871  586295.107040
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.553572_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 6.088830  0.000355  0.000159  0.000956  0.001085  83776.362422
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.589286_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.711454  0.000335  0.000150  0.000073  0.001023  1823163.267209
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.589286_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 6.464234  0.000335  0.000150  0.000986  0.001023  275750.044112
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.625000_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 12.755984  0.000226  0.000102  0.002481  0.000688  6979095.111898
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.625000_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.687807  0.000226  0.000102  0.000717  0.000688  -120197.861509
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.660714_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 18.022265  0.000212  0.000095  0.003343  0.000645  13554517.719235
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.660714_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.837489  0.000212  0.000095  0.000155  0.000645  73204.088101
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.696428_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 13.518255  0.000219  0.000098  0.002204  0.000665  12811917.336326
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.696428_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 4.418833  0.000219  0.000098  0.000720  0.000665  -53479.191806
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.732143_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 4.251073  0.000235  0.000106  0.000595  0.000716  1305125.193016
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.732143_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 11.049906  0.000235  0.000106  0.001546  0.000716  152377.663598
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.767857_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 5.702368  0.000231  0.000104  0.000740  0.000703  10799020.676553
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.767857_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 10.878195  0.000231  0.000104  0.001412  0.000703  -278976.619358
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.803572_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 6.519124  0.000229  0.000103  0.000798  0.000697  12949589.890461
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.803572_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 10.811022  0.000229  0.000103  0.001323  0.000697  -305517.679188
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.839286_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 158.556227  0.000104  0.000047  0.042112  0.000318  -4050690.044522
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.839286_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 42.614883  0.000104  0.000047  0.011319  0.000318  -183428.182034
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.875000_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 66.214872  0.000109  0.000049  0.017251  0.000332  7907118.611571
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.875000_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 46.335881  0.000109  0.000049  0.012072  0.000332  -349924.000090
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.910714_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 77.962827  0.000117  0.000052  0.021126  0.000355  8730706.274402
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.910714_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 53.544614  0.000117  0.000052  0.014509  0.000355  -309029.803966
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.946428_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 90.980616  0.000131  0.000059  0.027981  0.000399  12628611.939866
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.946428_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 47.543072  0.000131  0.000059  0.014622  0.000399  -1015246.861756
+WPS: stations with file BL on both sides 20/20, fallback suction 0, fallback pressure 0, separated suction 10
+
+
+----------------------------------------------------
+WPS/Moreau BB model: WPS sub-model = Kamruzzaman (code 3000)  blunt auto: r/R=0.2679  h/c=0.00453  h=3.588e-04 m  Psi=22.3 deg (clamped to 14)
+  blunt auto: r/R=0.3036  h/c=0.00428  h=3.491e-04 m  Psi=21.7 deg (clamped to 14)
+  blunt auto: r/R=0.3393  h/c=0.00411  h=3.413e-04 m  Psi=19.9 deg (clamped to 14)
+  blunt auto: r/R=0.3750  h/c=0.00416  h=3.482e-04 m  Psi=18.8 deg (clamped to 14)
+  blunt auto: r/R=0.4107  h/c=0.00418  h=3.499e-04 m  Psi=15.8 deg (clamped to 14)
+  blunt auto: r/R=0.4464  h/c=0.00426  h=3.546e-04 m  Psi=14.1 deg (clamped to 14)
+  blunt auto: r/R=0.4821  h/c=0.00426  h=3.515e-04 m  Psi=14.1 deg (clamped to 14)
+  blunt auto: r/R=0.5179  h/c=0.00419  h=3.414e-04 m  Psi=12.8 deg
+  blunt auto: r/R=0.5536  h/c=0.00400  h=3.222e-04 m  Psi=12.0 deg
+  blunt auto: r/R=0.5893  h/c=0.00440  h=3.505e-04 m  Psi=11.3 deg
+  blunt auto: r/R=0.6250  h/c=0.00456  h=3.591e-04 m  Psi=10.9 deg
+  blunt auto: r/R=0.6607  h/c=0.00128  h=9.987e-05 m  Psi=11.3 deg
+  blunt auto: r/R=0.6964  h/c=0.00316  h=2.428e-04 m  Psi=10.2 deg
+  blunt auto: r/R=0.7321  h/c=0.00316  h=2.389e-04 m  Psi=10.2 deg
+  blunt auto: r/R=0.7679  h/c=0.00119  h=8.794e-05 m  Psi=10.8 deg
+  blunt auto: r/R=0.8036  h/c=0.00059  h=4.245e-05 m  Psi=10.2 deg
+  blunt auto: r/R=0.8393  h/c=0.00341  h=2.311e-04 m  Psi=9.5 deg
+  blunt auto: r/R=0.8750  h/c=0.00439  h=2.658e-04 m  Psi=9.1 deg
+  blunt auto: r/R=0.9107  h/c=0.00275  h=1.376e-04 m  Psi=9.5 deg
+  blunt auto: r/R=0.9464  h/c=0.00030  h=1.076e-05 m  Psi=10.4 deg
+Extra BB sources added (TIN=0 tip=1 blunt=1)
+
+Noise computation completed for rotor 0
+
+BPF = 150.000000
+Calculating tonal noise ...
+ Calculating TBL TE (BB) noise ...WPS/Moreau: using BL Profiles directory: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.267857_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.599077  0.000490  0.000220  0.000365  0.001489  51538.837160
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.267857_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.224644  0.000490  0.000220  0.001965  0.001489  -19423.016321
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.303571_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.161037  0.000475  0.000213  0.000071  0.001445  19560.315903
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.303571_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.549951  0.000475  0.000213  0.001571  0.001445  -17737.724787
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.339286_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.698706  0.000432  0.000194  0.000258  0.001312  25075.155404
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.339286_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.678093  0.000432  0.000194  0.001357  0.001312  -21333.679315
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.375000_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.222023  0.000404  0.000181  0.000069  0.001230  26088.290630
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.375000_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 4.656676  0.000404  0.000181  0.001450  0.001230  -25427.948497
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.410714_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 6.188691  0.000349  0.000156  0.001825  0.001060  356777.366134
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.410714_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.529567  0.000349  0.000156  0.000156  0.001060  -22384.614316
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.446429_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 4.861059  0.000320  0.000143  0.001309  0.000973  166496.952056
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.446429_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.039853  0.000320  0.000143  0.000818  0.000973  -42346.566717
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.482143_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 1.243004  0.000399  0.000179  0.000166  0.001216  399510.606059
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.482143_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.642407  0.000399  0.000179  0.000741  0.001216  110941.198306
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.517857_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 14.776906  0.000229  0.000103  0.004140  0.000696  3470416.889219
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.517857_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 1.264356  0.000229  0.000103  0.000354  0.000696  -61233.618549
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.553572_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.288674  0.000314  0.000141  0.000041  0.000871  586295.107040
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.553572_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 6.088830  0.000355  0.000159  0.000956  0.001085  83776.362422
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.589286_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.711454  0.000335  0.000150  0.000073  0.001023  1823163.267209
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.589286_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 6.464234  0.000335  0.000150  0.000986  0.001023  275750.044112
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.625000_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 12.755984  0.000226  0.000102  0.002481  0.000688  6979095.111898
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.625000_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 3.687807  0.000226  0.000102  0.000717  0.000688  -120197.861509
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.660714_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 18.022265  0.000212  0.000095  0.003343  0.000645  13554517.719235
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.660714_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 0.837489  0.000212  0.000095  0.000155  0.000645  73204.088101
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.696428_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 13.518255  0.000219  0.000098  0.002204  0.000665  12811917.336326
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.696428_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 4.418833  0.000219  0.000098  0.000720  0.000665  -53479.191806
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.732143_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 4.251073  0.000235  0.000106  0.000595  0.000716  1305125.193016
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.732143_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 11.049906  0.000235  0.000106  0.001546  0.000716  152377.663598
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.767857_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 5.702368  0.000231  0.000104  0.000740  0.000703  10799020.676553
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.767857_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 10.878195  0.000231  0.000104  0.001412  0.000703  -278976.619358
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.803572_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 6.519124  0.000229  0.000103  0.000798  0.000697  12949589.890461
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.803572_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 10.811022  0.000229  0.000103  0.001323  0.000697  -305517.679188
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.839286_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 158.556227  0.000104  0.000047  0.042112  0.000318  -4050690.044522
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.839286_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 42.614883  0.000104  0.000047  0.011319  0.000318  -183428.182034
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.875000_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 66.214872  0.000109  0.000049  0.017251  0.000332  7907118.611571
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.875000_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 46.335881  0.000109  0.000049  0.012072  0.000332  -349924.000090
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.910714_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 77.962827  0.000117  0.000052  0.021126  0.000355  8730706.274402
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.910714_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 53.544614  0.000117  0.000052  0.014509  0.000355  -309029.803966
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.946428_u.txt
+Column names : #SuctionSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 90.980616  0.000131  0.000059  0.027981  0.000399  12628611.939866
+
+
+----------------------------------------------------
+Reading BL_params from file: C:\Dev\Aeroacoustics\LOPNOR_HansonFD_release_14082026\tests\JobySingleProp_NB5RPM1800_test\Profiles/BLparams_rR0.946428_l.txt
+Column names : #PressureSide: Uedge      dStar     theta     tau     delta     dp/dx
+first row: 47.543072  0.000131  0.000059  0.014622  0.000399  -1015246.861756
+WPS: stations with file BL on both sides 20/20, fallback suction 0, fallback pressure 0, separated suction 10
+
+
+----------------------------------------------------
+WPS/Moreau BB model: WPS sub-model = Kamruzzaman (code 3000)Extra BB sources added (TIN=0 tip=1 blunt=1)
+Done
+ -----------------------------------------------
+ Computation completed sucessfully! 
+ CPU time 260.334000 seconds
+ -----------------------------------------------

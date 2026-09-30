@@ -1,0 +1,2 @@
+# Azim [deg] Elev [deg] SPL_Th [dB] SPL_L [dB] SPL [dB] 
+90.000000 0.000000 42.386437 52.745046 52.009681

@@ -1,0 +1,26 @@
+# Optional extra broadband sources for LOPNOR, named on the deck line after the WPS sub-model.
+# Joby single-propeller case.  Updated 28-09-2026: every parameter the blade geometry determines
+# is taken from it; nothing is fitted.
+#
+# --- Turbulence-ingestion (Amiet 1975 LE) noise ------------------------------------------------
+# NOT geometric, and OFF: a fit to the NB5 in-plane floor (u' = 0.37 m/s, Lambda = 8 mm) failed
+# the blind test against NB2/NB3 and the -35/-45 deg microphones.  No inflow data for the rig.
+tin 0
+tin_urms 0.0         # rms upwash velocity [m/s]
+tin_lambda 0.0       # integral length scale [m]
+#
+# --- BPM tip-vortex formation noise ------------------------------------------------------------
+# Tip shape FROM GEOMETRY (bladeGeom.txt): chord/R falls from 0.139 (r/R 0.82) to 0.055 (0.964)
+# and extrapolates to ~0.024 at the tip (~15 % of the maximum chord) -> strongly tapered,
+# 'rounded' tip.  alpha_tip is taken automatically from BladeAeroData_HansonFD.txt.
+# Predicted contribution: negligible (far below the measured floor).
+tip 1
+tip_shape rounded
+#
+# --- BPM trailing-edge bluntness ---------------------------------------------------------------
+# FROM GEOMETRY: h and Psi per station from Profiles/Cp_Airfoil_rR*.txt (h = 0.01-0.36 mm,
+# Psi 9-22 deg, clamped to BPM's calibrated 14 deg).  Predicted contribution 10-35 dB below the
+# measured floor.  The h values scatter between stations (paneling), see the run log.
+blunt 1
+blunt_h auto         # or a thickness in metres
+blunt_psi 14         # [deg], used only with a fixed blunt_h
