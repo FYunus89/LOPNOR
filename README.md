@@ -1,6 +1,7 @@
 # LOPNOR toolkit
 
 This repo contains LOPNOR toolkit including solvers in aerodynamic, aeroacoustics and signal processing.
+The current release provides executable binaries together with example test cases. The corresponding source code is currently being prepared for public release and will be added to this repository soon. The repository will be updated accordingly once the source code is available.
 
 
 ## 1. LOPNOR_BEMTcpu
